@@ -2,4 +2,5 @@
 Lela Hanson's personal website.
 
 This is a test.
-I have created _config.yml
+I have created _config.yml.
+I have added the cayman theme.
