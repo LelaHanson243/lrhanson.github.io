@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="#top" class="logo">{{ site.title }}</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- PAGE CONTENT -->
+<main>
+  {{ content }}
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p>© {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+</footer>
+
+<script src="/assets/script.js"></script>
+</body>
+</html>
