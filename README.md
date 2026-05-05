@@ -1,6 +1,3 @@
 # lrhanson.github.io
-Lela Hanson's personal website.
-
-This is a test.
-I have created _config.yml.
-I have added the cayman theme.
+Lela Hanson's professional website.
+Created using Bootstrap - Freelancer v6.0.0 (https://startbootstrap.com/themes/freelancer).
