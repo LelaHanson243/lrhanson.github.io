@@ -11062,14 +11062,14 @@ html {
     object-fit: cover;
 }
 
-/* Hover effect for "Awards" links */
+/* Awards link hover effect */
 .award-link {
-  color: inherit;
-  text-decoration: none;
+  color: inherit !important;
+  text-decoration: none !important;
   transition: color 0.15s ease, text-decoration 0.15s ease;
 }
 
 .award-link:hover {
-  color: #b52d00;
+  color: #b52d00 !important;      /* your custom hover color */
   text-decoration: underline;
 }
