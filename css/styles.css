@@ -11044,3 +11044,15 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+
+/* Controls sizing of "About" carousel */
+#aboutCarousel {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+#aboutCarousel img {
+    height: 280px;
+    object-fit: cover;
+}
