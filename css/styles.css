@@ -11063,13 +11063,13 @@ html {
 }
 
 /* Hover effect for "Awards" links */
-<style>
-.link-hover {
+.award-link {
+  color: inherit;
+  text-decoration: none;
   transition: color 0.15s ease, text-decoration 0.15s ease;
 }
 
-.link-hover:hover {
+.award-link:hover {
+  color: #b52d00;
   text-decoration: underline;
-  color: #0a58ca; /* Bootstrap primary hover tone */
 }
-</style>
