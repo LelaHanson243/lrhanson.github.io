@@ -11061,3 +11061,15 @@ html {
     height: 560px;
     object-fit: cover;
 }
+
+/* Hover effect for "Awards" links */
+<style>
+.link-hover {
+  transition: color 0.15s ease, text-decoration 0.15s ease;
+}
+
+.link-hover:hover {
+  text-decoration: underline;
+  color: #0a58ca; /* Bootstrap primary hover tone */
+}
+</style>
